@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -55,14 +55,5 @@ model Skill {
   name      String
   fill      String
   stroke    String
-  query     String   @default("")
   fromDate  DateTime @default(now())
-}
-
-model Blog {
-  id        Int      @default(autoincrement()) @id
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  name      String   
-  content   String
 }

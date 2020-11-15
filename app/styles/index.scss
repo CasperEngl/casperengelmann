@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply px-4 py-2 border-2 border-gray-700 bg-gray-800 rounded hover:shadow-outline focus:outline-none focus:shadow-outline;
+}
+
+@tailwind utilities;
