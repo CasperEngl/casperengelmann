@@ -1,5 +1,5 @@
 /* eslint-disable no-redeclare */
-import { BlitzPage, InferGetServerSidePropsType, InferGetStaticPropsType } from 'blitz'
+import { InferGetStaticPropsType } from 'blitz'
 import db from 'db'
 
 import Typed from 'react-typed'
