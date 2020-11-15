@@ -83,7 +83,7 @@ const Home = ({ skills }: InferGetStaticPropsType<typeof getStaticProps>) => {
         <div className="px-8 container flex flex-col items-start space-y-8">
           <article className="space-y-2">
             <h3 className="text-3xl font-bold">Email me</h3>
-            <div className="p-4 bg-gray-800 inline-block">
+            <div className="p-4 bg-gray-800 inline-block text-3xl">
               me@casperengelmann.com
             </div>
           </article>
